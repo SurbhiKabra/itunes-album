@@ -1,0 +1,54 @@
+.tile {
+    display: inline-block;
+    width: 20%;
+    max-width: 235px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.tile-content {
+    background-color: #efefef;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tile-title {
+    font-family: open sans;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.tile-price {
+    font-family: open sans light;
+    margin: 0
+}
+
+.tile-img {
+    text-align: center;
+    vertical-align: center;
+    height: 163px;
+    width: 100%;
+}
+
+.tile-img img{
+    width: 140px;
+    height: 140px;
+    vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
