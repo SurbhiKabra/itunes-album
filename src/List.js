@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ShowCard from './ShowCard';
 import Header from './Header';
 
+// Stateful Component to display the list of albums
 class List extends Component {
   constructor(props) {
     super(props);
@@ -28,6 +29,9 @@ class List extends Component {
       })
   }
 
+/*
+* formatData() accepts data as a param and slice top 100
+*/
   formatData(data) {
     if(data && data.feed.entry) {
       data.feed.entry = data.feed.entry.slice(0,100);
